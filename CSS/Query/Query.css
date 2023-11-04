@@ -1,0 +1,69 @@
+body {
+
+background-color: cornsilk;
+margin: 100px;
+padding: 10px;
+border: 10px;
+color: rgb(0, 136, 255);
+
+
+}
+.button {
+
+background-color: rgb(255, 0, 0);
+border-radius: 10px;
+
+
+
+}
+
+@media only screen and (max-width: 320px){
+    body {
+
+        background-color: azure;
+    }
+    .button{
+
+        display: none;
+
+    }
+    
+}
+@media only screen and (max-width: 375px) and (min-width: 320px){
+    body {
+
+        background-color: rgb(113, 161, 0);
+    }
+    .button{
+
+        display: none;
+
+    }
+    
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px){
+    body {
+
+        background-color: rgb(0, 34, 255);
+    }
+    .button{
+
+        display: none;
+
+    }
+    
+}
+@media only screen and (max-width: 768px) and (min-width: 425px){
+    body {
+
+        background-color: rgb(161, 0, 123);
+    }
+    .button{
+
+        display: none;
+
+    }
+    
+}
+

@@ -1,0 +1,76 @@
+.flex-column {
+
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+
+}
+
+.item {
+
+    width: 100px;
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2px;
+
+}
+
+.flex-row {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.flex-wrap {
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+
+.item1 {
+
+    background-color: rgb(246, 255, 0);
+
+}
+
+.item2 {
+
+    background-color: rgb(34, 0, 255);
+
+}
+
+.item3 {
+
+    background-color: rgb(255, 0, 0);
+
+}
+
+.flex-center {
+
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+
+}
+.flex-between {
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+}
+.flex-around {
+
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+
+}
+
+
